@@ -1,10 +1,8 @@
 function Mostrar()
 
-for (contador = 0; contador<= 10; contador++);
-
-var contador;
 {
+for (var contador = 1; contador <= 10; contador++)
+    {
     console.log(contador);
-	contador++;
-
+	}
 }
